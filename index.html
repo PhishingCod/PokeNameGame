@@ -247,16 +247,16 @@
         const allButtons = document.querySelectorAll('.btn, .icon-btn');
 
         // Audio sources
-        const backgroundMusic = new Audio('aud/intromusic.mp3');
+        const backgroundMusic = new Audio('intromusic.mp3');
         backgroundMusic.loop = true;
-        const popSound = new Audio('aud/pickfile.mp3'); 
+        const popSound = new Audio('pickfile.mp3'); 
         let soundOn = true;
 
         // Background image URLs
         const backgrounds = {
-            forest: 'url("img/pokemon_forest.jpg")',
-            cave: 'url("img/pokemon_cave.webp")',
-            city: 'url("img/pokemon_city.webp")',
+            forest: 'url("pokemon_forest.jpg")',
+            cave: 'url("pokemon_cave.webp")',
+            city: 'url("pokemon_city.webp")',
         };
 
         bgButtons.forEach(button => {
@@ -320,3 +320,4 @@
     </script>
 </body>
 </html>
+
